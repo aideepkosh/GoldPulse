@@ -152,9 +152,10 @@ Increase `versionCode` (and usually `versionName`) in [`app/build.gradle.kts`](a
 2. Open the repo's **Settings → Pages**, set **Source** to *Deploy from a branch*, choose `main` and `/ (root)`, then **Save**.
 3. After a minute the policy is live at
    `https://<your-github-username>.github.io/<repo-name>/privacy-policy.html`
+   (for this repository: `https://aideepkosh.github.io/GoldPulse/privacy-policy.html`)
 4. Paste that URL into Play Console → **App content → Privacy policy**.
 
-Before publishing, replace `[your-email@example.com]` in `privacy-policy.md` with a contact address.
+The policy names the developer as DeepKosh with the contact address ai.deepkosh@gmail.com. Keep both the same as in the Play Console developer profile.
 
 ## Play Console notes
 

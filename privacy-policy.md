@@ -2,7 +2,7 @@
 
 **Effective date:** 27 November 2026
 
-This privacy policy explains how the Android app **GoldPulse: Daily Gold Rate** ("GoldPulse", "the app", package `com.deepkosh.goldpulse`) handles information. In short: **GoldPulse does not collect, store on any server, share or sell any personal data.**
+This privacy policy explains how the Android app **GoldPulse: Daily Gold Rate** ("GoldPulse", "the app", package `com.deepkosh.goldpulse`), developed by **DeepKosh** ("we", "us"), handles information. In short: **GoldPulse does not collect, store on any server, share or sell any personal data.**
 
 ## Information we collect
 
@@ -54,4 +54,4 @@ If this policy changes, the updated version will be posted at this address with 
 
 ## Contact
 
-Questions about this policy: **[your-email@example.com]**
+Questions about this policy: DeepKosh, [ai.deepkosh@gmail.com](mailto:ai.deepkosh@gmail.com)
