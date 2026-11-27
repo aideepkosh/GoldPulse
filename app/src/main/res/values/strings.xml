@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">GoldPulse</string>
+
+    <!-- Actions -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_open_settings">Open settings</string>
+
+    <!-- 24K hero card -->
+    <string name="hero_label">24K gold today</string>
+    <string name="per_ten_grams">per 10 grams</string>
+    <string name="per_gram_value">%1$s per gram</string>
+    <string name="hero_disclaimer">Indicative rate · excludes GST and making charges</string>
+    <string name="last_updated">Last updated %1$s</string>
+
+    <!-- Change vs yesterday. %1$s = rupee amount, %2$s = percent -->
+    <string name="change_up">▲ %1$s (%2$s)</string>
+    <string name="change_down">▼ %1$s (%2$s)</string>
+    <string name="change_none">No change</string>
+    <string name="change_unknown">—</string>
+    <string name="change_vs_yesterday">vs yesterday</string>
+    <string name="change_unavailable">Yesterday\'s rate unavailable</string>
+
+    <!-- Offline -->
+    <string name="saved_rate_banner">Couldn\'t refresh. Showing the last saved rate.</string>
+    <string name="refresh_failed">Couldn\'t refresh. Check your internet connection.</string>
+
+    <!-- Karat table -->
+    <string name="rates_title">Today\'s rates</string>
+    <string name="column_karat">Karat</string>
+    <string name="column_one_gram">1 gram</string>
+    <string name="column_ten_grams">10 grams</string>
+    <string name="karat_24">24K</string>
+    <string name="karat_22">22K</string>
+    <string name="karat_18">18K</string>
+    <string name="purity">%1$s pure</string>
+    <string name="rates_footnote">Change is shown per 10 grams, compared with yesterday.</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer_title">Indicative rate only</string>
+    <string name="disclaimer_body" formatted="false">GoldPulse calculates this rate from the international gold spot price, the USD to INR exchange rate and India\'s import duty. It excludes 3% GST, making charges and local premiums, so the price at a jeweller will be higher and varies by city. Always confirm the final price with your jeweller before buying.</string>
+
+    <!-- Notification setting -->
+    <string name="notification_card_title">Daily rate notification</string>
+    <string name="notification_card_subtitle">Today\'s 22K and 24K rate around %1$s</string>
+    <string name="notification_blocked">Notifications are turned off for GoldPulse in system settings.</string>
+    <string name="notifications_denied">Allow notifications to get the daily gold rate.</string>
+
+    <!-- How it is calculated -->
+    <string name="calc_title">How this rate is calculated</string>
+    <string name="calc_spot">Gold spot (XAU/USD)</string>
+    <string name="calc_spot_value">%1$s / oz</string>
+    <string name="calc_fx">USD to INR</string>
+    <string name="calc_duty">Import duty</string>
+    <string name="calc_source">Source</string>
+    <string name="calc_formula">24K per gram = spot ÷ %1$s × USD/INR, plus import duty. 22K = 24K × %2$s. 18K = 24K × %3$s.</string>
+    <string name="data_sources">Data: gold-api.com, Frankfurter (ECB) and fawazahmed0/currency-api.\nNo ads, no tracking, no account.</string>
+
+    <!-- Loading and errors -->
+    <string name="loading">Fetching today\'s gold rate…</string>
+    <string name="error_title">Couldn\'t load gold rates</string>
+    <string name="error_body">Check your internet connection and try again.</string>
+
+    <!-- Daily notification -->
+    <string name="notification_channel_name">Daily gold rate</string>
+    <string name="notification_channel_description">Today\'s 22K and 24K gold rate every morning</string>
+    <string name="notification_title">Gold rate today · %1$s</string>
+    <string name="notification_text">24K %1$s/g · 22K %2$s/g</string>
+    <string name="notification_rates">24K: %1$s per gram · %2$s per 10 g\n22K: %3$s per gram · %4$s per 10 g</string>
+    <string name="notification_change">24K %1$s vs yesterday</string>
+    <string name="notification_disclaimer">Indicative rate. Excludes GST and making charges.</string>
+</resources>
