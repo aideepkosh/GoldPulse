@@ -155,14 +155,14 @@ Increase `versionCode` (and usually `versionName`) in [`app/build.gradle.kts`](a
    (for this repository: `https://aideepkosh.github.io/GoldPulse/privacy-policy.html`)
 4. Paste that URL into Play Console → **App content → Privacy policy**.
 
-The policy names the developer as DeepKosh with the contact address ai.deepkosh@gmail.com. Keep both the same as in the Play Console developer profile.
+The policy names the developer as Deepkosh Solutions (the Play Console developer name) with the contact address ai.deepkosh@gmail.com. Keep both the same as in the Play Console developer profile.
 
 ## Play Console notes
 
 - **Data safety:** "No data collected" and "No data shared". The app has no SDKs that collect data, and the only network calls download public prices (see the privacy policy).
 - **Ads:** No ads.
 - **Category:** Finance. **Target audience:** 18+ is the simplest choice for a finance app.
-- **Store listing assets:** `play-store/icon-512.png` (app icon), `play-store/feature-graphic-1024x500.jpg`, and three phone screenshots in `play-store/screenshots/` (1080 x 2138 JPEG; Play rejects screenshots longer than 2:1 or with transparency). Listing text is ready to paste in `play-store/listing.md`.
+- **Store listing assets:** `play-store/icon-512.png` (app icon), `play-store/feature-graphic-1024x500.jpg`, and three phone screenshots in `play-store/screenshots/` (1080 x 1920 JPEG; Play needs a 9:16 ratio and no transparency). Listing text is ready to paste in `play-store/listing.md`.
 - **App name:** "GoldPulse: Daily Gold Rate" in the listing. The launcher label is the shorter "GoldPulse".
 
 ## Library versions and compileSdk 36
